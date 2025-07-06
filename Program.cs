@@ -40,6 +40,7 @@
                                     }
                                 case 2:
                                     {
+                                        LabCourse.ValidateCertificate();
                                         Console.WriteLine("Enter Course Id");
                                         int course_id = int.Parse(Console.ReadLine());
                                         Console.WriteLine("Enter Course Name");
